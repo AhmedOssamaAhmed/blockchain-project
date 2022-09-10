@@ -39,8 +39,8 @@ const Home = ({ marketplace, nft }) => {
     loadMarketplaceItems()
   }
 
-  useEffect(() => {
-    loadMarketplaceItems()
+  useEffect( () => {
+     loadMarketplaceItems()
   }, [])
   if (loading) return (
     <main style={{ padding: "1rem 0" }}>
